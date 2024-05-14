@@ -1,3 +1,20 @@
+# CPSC542 Extra Credit 1
+### Student Information
+Student Name: Devyn Miller
+Student ID: 2409539
+Collaboration: None
+### Resources
+Resources used:
+*Due to the large size of the Keras pretrained models and the image datasets used, they are not included in the repository. They can be accessed through the following links:*
+- **Keras Pretrained Models**: [Kaggle - Keras Pretrained Models](https://www.kaggle.com/datasets/gaborfodor/keras-pretrained-models)
+- **Fire Dataset**: [Kaggle - Fire Dataset](https://www.kaggle.com/datasets/phylake1337/fire-dataset)
+- Perplexity
+- Kaggle (delllectron)
+
+
+Code Repository
+[GitHub Repository for CPSC542 Extra Credit 1](https://github.com/devyn-miller/cpsc542-extra-credit)
+
 # Project Overview
 
 This project involves the classification of images into 'fire' and 'non-fire' categories using machine learning models. Below is a description of each file in the project and their respective roles:
@@ -46,12 +63,3 @@ This project involves the classification of images into 'fire' and 'non-fire' ca
   Contains functions for model validation and evaluation. Key functionalities include:
   Classification Report: Generates a classification report for model evaluation.
   Confusion Matrix: Function to plot a confusion matrix.
-
-## Datasets
-
-Due to the large size of the Keras pretrained models and the image datasets used, they are not included in the repository. They can be accessed through the following links:
-
-- **Keras Pretrained Models**: [Kaggle - Keras Pretrained Models](https://www.kaggle.com/datasets/gaborfodor/keras-pretrained-models)
-- **Fire Dataset**: [Kaggle - Fire Dataset](https://www.kaggle.com/datasets/phylake1337/fire-dataset)
-
-Please download these datasets and place them in the appropriate directories as specified in the `main.ipynb` notebook.
