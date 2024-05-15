@@ -1,5 +1,6 @@
 from keras.models import Sequential
 from keras.layers import Dense
+from tensorflow.keras.metrics import Precision, Recall, F1Score
 
 def build_model(input_dim):
     """
@@ -19,5 +20,7 @@ def build_model(input_dim):
     model.add(Dense(units=256, activation='relu', input_dim=input_dim))
     model.add(Dense(units=64, activation='relu'))
     model.add(Dense(units=1, activation='sigmoid'))
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer='adam',
+              loss='binary_crossentropy',
+              metrics=['accuracy', Precision(), Recall(), F1Score(average='macro')])
     return model
